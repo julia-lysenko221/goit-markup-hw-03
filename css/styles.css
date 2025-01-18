@@ -155,9 +155,11 @@ p {
   background-color: #4d5ae5;
   min-width: 169px;
   height: 56px;
-  border-radius: 4%;
+  border: none;
+  border-radius: 4px;
   display: block;
   margin: 0 auto;
+  cursor: pointer;
 }
 .service-btn:hover,
 .service-btn:focus {
@@ -289,8 +291,9 @@ img {
 }
 
 .portf-app {
-  padding-top: 32px 16px;
+  padding: 32px 16px
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-title {
